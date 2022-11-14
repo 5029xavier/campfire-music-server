@@ -1,0 +1,31 @@
+{
+  "name": "campfire-music-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "awsS3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5029xavier/campfire-music-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5029xavier/campfire-music-server/issues"
+  },
+  "homepage": "https://github.com/5029xavier/campfire-music-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.10.5",
+    "mongoose-slug-generator": "^1.0.4",
+    "nodemon": "^2.0.4",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
